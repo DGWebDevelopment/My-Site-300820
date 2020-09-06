@@ -1,0 +1,123 @@
+h1 {
+    left:500px;
+}
+
+#message {
+    position:absolute;
+    left:250px;
+    top:100px;
+    width:700px;
+    text-align: center;
+}
+
+#blob {
+    top:231px;
+}
+
+.input:focus {
+    outline: none !important;
+}
+
+
+#nameinput{
+    position:absolute;
+    top:205px;
+    left:375px;
+    width:430px;
+    padding-left: 20px;
+}
+
+#nameinput::placeholder {
+    position:relative;
+}
+
+#emailinput {
+    position:absolute;
+    top:235px;
+    left:375px;
+    width:430px;
+    padding-left: 20px;
+    
+}
+
+#emailinput::placeholder {
+    position:relative;
+}
+
+#messageinput {
+    position:absolute;
+    top:285px;
+    left:375px;
+    width:450px;
+    height:300px;
+    font-family:sans-serif;
+    resize: none;
+}
+
+#messageinput:onclick {
+    border:3px solid red;
+}
+
+
+#messageinput::placeholder {
+    position:relative;
+    left:20px;
+}
+
+#submitbutton {
+    position: absolute;
+    left:777px;
+    top:610px;
+    color:black;
+    cursor:pointer;
+    z-index: -1;
+}
+
+#falsesubmitbutton {
+    position: absolute;
+    left:777px;
+    top:610px;
+    color:black;
+    cursor:pointer;
+}
+
+#formerrormessage {
+    color:red;
+    font-size: 13px;
+    font-family: sans-serif;
+    position:absolute;
+    top:604px;
+    left:378px;
+    opacity:0;
+}
+
+.formerrorstar {
+    color:red;
+    font-size:18px;
+    font-family: sans-serif;
+    position:absolute;
+}
+
+#formerrormessagestar {
+    top: 600px;
+    left:355px;
+    opacity:0;
+}
+
+#nameerrorstar {
+    top: 191px;
+    left:352px;
+    opacity:0;
+}
+
+#emailerrorstar {
+    top:219px;
+    left:352px;
+    opacity:0;
+}
+
+#messageerrorstar {
+    top:272px;
+    left:352px;
+    opacity:0;
+}

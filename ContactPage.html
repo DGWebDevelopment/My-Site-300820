@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Contact Page</title>
+    <link rel="shortcut icon" type="image/x-icon" href="../Home-AboutPage/mysitefavicon.ico" />
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC&display=swap" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="../Home-AboutPage/General.css">
+    <link type="text/css" rel="stylesheet" href="ContactPage.css">
+    <link type="text/css" rel="stylesheet" href="../Home-AboutPage/General-Mobile.css" media="screen and (min-width: 2200px)">
+</head>
+
+<body>
+    <h1 id="header123">Get in touch:</h1>
+
+    <p id="message">
+        <span>
+            Please fill in the 3 fields below and then press the 'Submit' button at the bottom to send me an email. 
+        </span>
+        <br>
+        <span style="position: relative; top:2px">
+            I will then endeavour to get back to you as soon as possible.
+        </span>
+        <br>
+        <span style="position: relative; top:8px">
+            Thank you.
+        </span>
+    </p>
+
+    <img src="cloudysky.gif" id="background-image">
+
+    <button type="button" class="navbutton" id="homebutton" onclick="document.location='../Home-AboutPage/Home-AboutPage.html'" >Home/About</button>
+    <button type="button" class="navbutton" id="myprojectsbutton" onclick="document.location='../MyProjectsPage/MyProjectsPage.html'">My Projects</button>
+    <button type="button" class="navbutton" id="contactbutton">Contact Details</button>
+    
+    <div id="blob"></div>
+
+    <form class="contact-form" action="ContactForm.php" method="post" >
+        <input type="text" class="input" name="name" id="nameinput" placeholder="Please enter your name here:" autocomplete="off">
+        <input type="text" class="input" name="mail" id="emailinput" placeholder="Please enter your email address here:" autocomplete="off">
+        <textarea name="message" class="input" maxlength="750" id="messageinput" placeholder="Please enter your message here:" autocomplete="off"></textarea>
+        <button type="submit" name="submit" id="submitbutton">Submit</button>
+    </form>
+
+    <button id="falsesubmitbutton">Submit</button>
+  
+    <p id="formerrormessage">Please fill in all 3 fields above.</p>
+    <p class="formerrorstar" id="formerrormessagestar">*</p>
+    <p class="formerrorstar" id="nameerrorstar">*</p>
+    <p class="formerrorstar" id="emailerrorstar">*</p>
+    <p class="formerrorstar" id="messageerrorstar">*</p>
+
+
+
+    <script src="ContactPage.js"></script>
+</body>
+</html>

@@ -1,0 +1,114 @@
+h1 {
+    left: 500px;
+}
+
+#blob {
+    top:188px;
+}
+
+.projectbox {
+    position:absolute;
+    /*top:125px;*/
+    top:185px;
+    width:250px;
+    height:250px;
+}
+
+.projectbutton {
+    position:absolute;
+    cursor:pointer;
+}
+
+#pawsnclawsprojecttitlepart1 {
+    position:absolute;
+    top:120px;
+    left:300px;
+    font-family: 'Shojumaru', cursive;
+    font-size: 20px;
+    transform:rotate(-15deg);
+}
+
+#pawsnclawsprojecttitlepart2 {
+    position:absolute;
+    top:125px;
+    left:345px;
+    font-family: 'Shojumaru', cursive;
+    font-size: 20px;
+    transform:rotate(-15deg);
+}
+
+#pawsnclawsprojecttitlepart3 {
+    position:absolute;
+    top:120px;
+    left:480px;
+    font-family: 'Shojumaru', cursive;
+    font-size: 20px;
+
+}
+
+#pawsnclawsprojectbox {
+    left:295px;
+    background-image: url('pawsnclawscleartilted.jpg');
+    background-size: 250px 250px;
+    border: 2px solid red;
+    cursor: pointer;
+}
+
+#pawsnclawsprojecttext {
+    font-family: sans-serif;
+    color:white;
+    font-size: medium;
+    opacity:0;
+    text-align: center;
+}
+
+#pawsnclawsaboutthisprojectbutton {
+    /*top:390px;*/
+    top:450px;
+    left:295px;
+}
+
+#pawsnclawsgithublinkbutton {
+    /*top:390px;*/
+    top:450px;
+    left:417px;
+}
+
+#mysiteprojecttitle {
+    position:absolute;
+    top:110px;
+    left:705px;
+    font-family: 'Playfair Display SC', serif;
+    font-size: 30px;
+    letter-spacing: 1px;
+}
+
+#mysiteprojectbox {
+    left:650px;
+    background-image: url('streetlights250.png');
+    background-size: 250px 250px;
+    border: 2px solid rgb(47, 156, 189);
+}
+
+#mysiteprojecttext {
+    font-family: sans-serif;
+    color:white;
+    font-size: medium;
+    opacity:0;
+    text-align: center;
+}
+
+#mysiteaboutthisprojectbutton {
+    /*top:390px;*/
+    top:450px;
+    left:650px;
+}
+
+#mysitegithublinkbutton {
+    /*top:390px;*/
+    top:450px;
+    left:772px;
+}
+
+
+

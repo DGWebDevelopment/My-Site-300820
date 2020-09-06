@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>My Projects</title>
+    <link rel="shortcut icon" type="image/x-icon" href="../Home-AboutPage/mysitefavicon.ico" />
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Shojumaru&display=swap" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="../Home-AboutPage/General.css">
+    <link type="text/css" rel="stylesheet" href="MyProjectsPage.css">
+</head>
+<body>
+    <h1 id="header">My Projects:</h1>
+
+    <img src="cloudysky.gif" id="background-image">
+
+    <button type="button" class="navbutton" id="homebutton" onclick="document.location='../Home-AboutPage/Home-AboutPage.html'" >Home/About</button>
+    <button type="button" class="navbutton" id="myprojectsbutton" >My Projects</button>
+    <button type="button" class="navbutton" id="contactbutton" onclick="document.location='../ContactPage/ContactPage.html'">Contact Details</button>
+    
+
+    <div id="blob"></div>
+
+    <h1 class="projecttitle" id="pawsnclawsprojecttitlepart1">Paws</h1>
+    <h1 class="projecttitle" id="pawsnclawsprojecttitlepart2">'n' Claws</h1>
+    <h1 class="projecttitle" id="pawsnclawsprojecttitlepart3">Game</h1>
+
+    <div id="pawsnclawsprojectbox" class="projectbox">
+        <div id="pawsnclawsprojecttext">
+            <p style="text-decoration: underline; position:absolute; top:2px; margin-top:1px;">
+                An alternatively styled version of the classic 'Naughts n Crosses'.
+            </p>
+            <p style="position:absolute; top:29px;">
+                Tools/languages used:
+            </p>
+            <p style="position:absolute; top: 50px; font-size: 14px;">
+                - Vanilla Javascript to manipulate the DOM and to run the winner-checking loops going on in the background.
+            </p>
+            <p style="position:absolute; bottom: 57px; font-size: 14px;">
+                - HTML with in-page CSS to pull together the board/titles/form elements together and assign them ID names
+                for use by the Javascript functions.                   
+            </p>
+            <p style="position:absolute; bottom: -8px; font-size: 14px; text-align: center;">
+                - Adobe Photoshop to tweak elements of stock images used for icons (color, size, background) and to create the thumbnail images on this page.               
+            </p>
+        </div>
+    </div>
+
+    <button type="button" class="projectbutton" id="pawsnclawsaboutthisprojectbutton" title="Opens in new tab" onclick="window.open('https://github.com/DGWebDevelopment/Paws-n-Claws-rev-270820/blob/master/About%20Project', '_blank')">About this project</button>
+    <button type="button" class="projectbutton" id="pawsnclawsgithublinkbutton" title="Opens in new tab" onclick="window.open('https://github.com/DGWebDevelopment/Paws-n-Claws-rev-270820', '_blank')">View code (GitHub)</button>
+    
+
+
+    <h1 class="projecttitle" id="mysiteprojecttitle">My site</h1>
+
+
+    <div id="mysiteprojectbox" class="projectbox">
+        <div id="mysiteprojecttext">
+            <p>
+                <p style="text-decoration: underline; position:absolute; top:2px; left:25px; margin-top:1px;">
+                    The website you are viewing.
+                </p>
+                <p style="position:absolute; top:10px;">
+                    Tools/languages used:
+                </p>
+                <p style="position:absolute; top: 33px; font-size: 14px;">
+                    - HTML & CSS to structure and style the website. Each HTML page has its own external CSS page whilst all
+                    sharing 'General.css' for basic styling.
+                </p>
+                <p style="position:absolute; top:100px; font-size: 14px;">
+                    - Javascript to programme the interactive formatting involed in the 'My Projects' page
+                    and the 'Contact Details' page.
+                </p>
+                <p style="position:absolute; top:166px; font-size: 14px;">
+                    - PHP was used to programme the 'Contact Details' application, enabling
+                    the website visitor to send a custom email message to myself.
+                </p>
+            </p>
+        </div>
+    </div>
+
+
+    <button type="button" class="projectbutton" id="mysiteaboutthisprojectbutton" title="Opens in new tab" onclick="window.open('https://github.com/DGWebDevelopment/My-Site-300820/blob/master/About', '_blank')">About this project</button>
+    <button type="button" class="projectbutton" id="mysitegithublinkbutton" title="Opens in new tab" onclick="window.open('https://github.com/DGWebDevelopment/My-Site-300820', '_blank')">View code (GitHub)</button>
+    
+
+
+
+    <script src="myprojectspage.js"></script>
+</body>
+</html>

@@ -1,0 +1,62 @@
+body {
+    background-color: black; 
+    position:relative;
+    margin-left:6%;
+}
+
+h1 {
+    position:absolute;
+    top:14px;
+    font-family: 'Playfair Display SC', serif;
+    font-size: 35px;
+    letter-spacing: 1px;
+}
+
+#background-image {
+    position:absolute;
+    left:219px;
+    width:930px;
+    z-index: -1;
+}
+
+.navbutton {
+    background-color:silver;
+    width:196px;
+    height:36px;
+    position:absolute;
+    left: 0px;   
+    outline: 2px solid white;
+    cursor: pointer;
+}
+
+
+
+.navbutton:hover {
+    border-color: skyblue;
+    background-color:rgb(242, 242, 242);
+
+}
+
+#homebutton {
+    top:130px;
+    
+}
+
+#myprojectsbutton {
+    top: 173px;
+}
+
+#contactbutton {
+    top: 216px;
+}
+
+
+#blob {
+    position:absolute;
+    width:21px;
+    height: 4px;
+    background-color:rgb(237, 237, 237);
+    left:198px;
+    
+}
+

@@ -1,0 +1,16 @@
+h1 {
+    left: 275px;
+    border-bottom: 1px solid black;
+}
+
+#maintextbody {
+    position:absolute;
+    top:100px;
+    left:250px;
+    width:370px;
+    text-align: center;
+}
+
+#blob {
+    top:146px;
+}
